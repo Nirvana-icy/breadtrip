@@ -36,7 +36,7 @@
     
     if(textField.tag==0){
         
-        [userNameField resignFirstResponder];
+        [userNameField resignFirstResponder]; 
         [passwordField becomeFirstResponder];
     }
     if(textField.tag==1){
@@ -48,8 +48,5 @@
     
     return TRUE;
 }
-
-
-
 
 @end

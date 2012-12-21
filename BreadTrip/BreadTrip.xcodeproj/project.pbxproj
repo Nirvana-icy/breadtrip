@@ -45,6 +45,7 @@
 		E54C80881683FC25007F59A4 /* UnLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E54C80821683FC25007F59A4 /* UnLoginViewController.m */; };
 		E54C80891683FC25007F59A4 /* WeiBoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E54C80841683FC25007F59A4 /* WeiBoViewController.m */; };
 		E54C808B1683FD13007F59A4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54C808A1683FD13007F59A4 /* MainStoryboard.storyboard */; };
+		E54C809516843768007F59A4 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E54C809416843768007F59A4 /* TPKeyboardAvoidingScrollView.m */; };
 		E5DD3DE416816177003330CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DD3DE316816177003330CE /* UIKit.framework */; };
 		E5DD3DE616816177003330CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DD3DE516816177003330CE /* Foundation.framework */; };
 		E5DD3DE816816177003330CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DD3DE716816177003330CE /* CoreGraphics.framework */; };
@@ -103,6 +104,8 @@
 		E54C80831683FC25007F59A4 /* WeiBoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiBoViewController.h; sourceTree = "<group>"; };
 		E54C80841683FC25007F59A4 /* WeiBoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiBoViewController.m; sourceTree = "<group>"; };
 		E54C808A1683FD13007F59A4 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E54C809316843768007F59A4 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		E54C809416843768007F59A4 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		E5DD3DDF16816177003330CE /* BreadTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreadTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DD3DE316816177003330CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E5DD3DE516816177003330CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -154,6 +157,8 @@
 		E54C7FF51683FA1D007F59A4 /* util */ = {
 			isa = PBXGroup;
 			children = (
+				E54C809316843768007F59A4 /* TPKeyboardAvoidingScrollView.h */,
+				E54C809416843768007F59A4 /* TPKeyboardAvoidingScrollView.m */,
 				E54C80751683FBFE007F59A4 /* CustomerViewController.h */,
 				E54C80761683FBFE007F59A4 /* CustomerViewController.m */,
 				E54C80771683FBFE007F59A4 /* TabBarView.h */,
@@ -229,11 +234,11 @@
 		E5DD3DE916816177003330CE /* BreadTrip */ = {
 			isa = PBXGroup;
 			children = (
-				E54C808A1683FD13007F59A4 /* MainStoryboard.storyboard */,
 				E5DD3DF216816177003330CE /* AppDelegate.h */,
 				E5DD3DF316816177003330CE /* AppDelegate.m */,
 				E5DD3DFE16816177003330CE /* ViewController.h */,
 				E5DD3DFF16816177003330CE /* ViewController.m */,
+				E54C808A1683FD13007F59A4 /* MainStoryboard.storyboard */,
 				E54C7FF41683FA1D007F59A4 /* control */,
 				E54C7FF51683FA1D007F59A4 /* util */,
 				E5DD3DEA16816177003330CE /* Supporting Files */,
@@ -362,6 +367,7 @@
 				E54C80871683FC25007F59A4 /* SignupViewController.m in Sources */,
 				E54C80881683FC25007F59A4 /* UnLoginViewController.m in Sources */,
 				E54C80891683FC25007F59A4 /* WeiBoViewController.m in Sources */,
+				E54C809516843768007F59A4 /* TPKeyboardAvoidingScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

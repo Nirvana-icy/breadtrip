@@ -8,6 +8,7 @@
 
 #import "SignupViewController.h"
 
+
 @interface SignupViewController (){
     NSString *isDoneFromKeyboardFlag;
 }
@@ -18,6 +19,7 @@
 @synthesize emailField;
 @synthesize userNameField;
 @synthesize passwordField;
+@synthesize scrollView;
 
 
 
@@ -39,10 +41,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
-
+    
     
     if(textField.tag==0){
         
@@ -57,11 +57,41 @@
     if(textField.tag==2){
         
         [passwordField resignFirstResponder];
-   
+        
     }
-
+    
     return TRUE;
 }
+
+
+-(void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    [scrollView adjustOffsetToIdealIfNeeded];
+}
+
+
+
+//- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+//
+//    
+//    if(textField.tag==0){
+//        
+//        [emailField resignFirstResponder];
+//        [userNameField becomeFirstResponder];
+//    }
+//    if(textField.tag==1){
+//        
+//        [userNameField resignFirstResponder];
+//        [passwordField becomeFirstResponder];
+//    }
+//    if(textField.tag==2){
+//        
+//        [passwordField resignFirstResponder];
+//   
+//    }
+//
+//    return TRUE;
+//}
 //
 ////implement the deleaget of the textFiled method
 //- (void)textFieldDidBeginEditing:(UITextField *)textField

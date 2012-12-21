@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "CustomerViewController.h"
+#import "TPKeyboardAvoidingScrollView.h"
 
 
 @interface SignupViewController : CustomerViewController<UITextFieldDelegate>{
@@ -17,5 +18,6 @@
 @property(nonatomic,weak) IBOutlet UITextField *emailField;
 @property(nonatomic,weak) IBOutlet UITextField *userNameField;
 @property(nonatomic,weak) IBOutlet UITextField *passwordField;
+@property (nonatomic, weak) IBOutlet TPKeyboardAvoidingScrollView *scrollView;
 
 @end

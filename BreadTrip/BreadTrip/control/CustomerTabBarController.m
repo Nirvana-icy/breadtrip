@@ -21,19 +21,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
 	// Do any additional setup after loading the view.
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-
-
-   [tabBarView setFrame:CGRectMake(0, 430, 320, 49)];
+    [tabBarView setFrame:CGRectMake(0, 430, 320, 49)];
     [self.view addSubview:tabBarView];
     
-
+    
 }
 
 
