@@ -41,37 +41,27 @@
 
 
 
-//- (BOOL)textFieldShouldReturn:(UITextField *)textField{
-//    isDoneFromKeyboardFlag=@"NO";
-//    NSTimeInterval animationDuration = 0.30f;
-//    CGRect frame = self.view.frame;
-//    frame.origin.y +=65;
-//    frame.size. height -=65;
-//    self.view.frame = frame;
-//    //self.view移回原位置
-//    [UIView beginAnimations:@"ResizeView" context:nil];
-//    [UIView setAnimationDuration:animationDuration];
-//    self.view.frame = frame;
-//    [UIView commitAnimations];
-//    
-//    if(textField.tag==0){
-//        
-//        [emailField resignFirstResponder];
-//        [userNameField becomeFirstResponder];
-//    }
-//    if(textField.tag==1){
-//        
-//        [userNameField resignFirstResponder];
-//        [passwordField becomeFirstResponder];
-//    }
-//    if(textField.tag==2){
-//        
-//        [passwordField resignFirstResponder];
-//   
-//    }
-//
-//    return TRUE;
-//}
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+
+    
+    if(textField.tag==0){
+        
+        [emailField resignFirstResponder];
+        [userNameField becomeFirstResponder];
+    }
+    if(textField.tag==1){
+        
+        [userNameField resignFirstResponder];
+        [passwordField becomeFirstResponder];
+    }
+    if(textField.tag==2){
+        
+        [passwordField resignFirstResponder];
+   
+    }
+
+    return TRUE;
+}
 //
 ////implement the deleaget of the textFiled method
 //- (void)textFieldDidBeginEditing:(UITextField *)textField

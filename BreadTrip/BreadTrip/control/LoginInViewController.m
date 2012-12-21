@@ -32,22 +32,22 @@
     // Dispose of any resources that can be recreated.
 }
 
-//- (BOOL)textFieldShouldReturn:(UITextField *)textField{
-//    
-//    if(textField.tag==0){
-//        
-//        [userNameField resignFirstResponder];
-//        [passwordField becomeFirstResponder];
-//    }
-//    if(textField.tag==1){
-//        
-//        [passwordField resignFirstResponder];
-//     
-//    }
-//
-//    
-//    return TRUE;
-//}
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    
+    if(textField.tag==0){
+        
+        [userNameField resignFirstResponder];
+        [passwordField becomeFirstResponder];
+    }
+    if(textField.tag==1){
+        
+        [passwordField resignFirstResponder];
+     
+    }
+
+    
+    return TRUE;
+}
 
 
 
