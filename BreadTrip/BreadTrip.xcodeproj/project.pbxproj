@@ -44,6 +44,7 @@
 		E54C80871683FC25007F59A4 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E54C80801683FC25007F59A4 /* SignupViewController.m */; };
 		E54C80881683FC25007F59A4 /* UnLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E54C80821683FC25007F59A4 /* UnLoginViewController.m */; };
 		E54C80891683FC25007F59A4 /* WeiBoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E54C80841683FC25007F59A4 /* WeiBoViewController.m */; };
+		E54C808B1683FD13007F59A4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54C808A1683FD13007F59A4 /* MainStoryboard.storyboard */; };
 		E5DD3DE416816177003330CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DD3DE316816177003330CE /* UIKit.framework */; };
 		E5DD3DE616816177003330CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DD3DE516816177003330CE /* Foundation.framework */; };
 		E5DD3DE816816177003330CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DD3DE716816177003330CE /* CoreGraphics.framework */; };
@@ -101,6 +102,7 @@
 		E54C80821683FC25007F59A4 /* UnLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnLoginViewController.m; sourceTree = "<group>"; };
 		E54C80831683FC25007F59A4 /* WeiBoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiBoViewController.h; sourceTree = "<group>"; };
 		E54C80841683FC25007F59A4 /* WeiBoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiBoViewController.m; sourceTree = "<group>"; };
+		E54C808A1683FD13007F59A4 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E5DD3DDF16816177003330CE /* BreadTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreadTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DD3DE316816177003330CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E5DD3DE516816177003330CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -227,6 +229,7 @@
 		E5DD3DE916816177003330CE /* BreadTrip */ = {
 			isa = PBXGroup;
 			children = (
+				E54C808A1683FD13007F59A4 /* MainStoryboard.storyboard */,
 				E5DD3DF216816177003330CE /* AppDelegate.h */,
 				E5DD3DF316816177003330CE /* AppDelegate.m */,
 				E5DD3DFE16816177003330CE /* ViewController.h */,
@@ -338,6 +341,7 @@
 				E54C80711683FBE5007F59A4 /* wishes_list_want_to_go_hl@2x.png in Resources */,
 				E54C80721683FBE5007F59A4 /* wishes_list_want_to_go.png in Resources */,
 				E54C80731683FBE5007F59A4 /* wishes_list_want_to_go@2x.png in Resources */,
+				E54C808B1683FD13007F59A4 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
