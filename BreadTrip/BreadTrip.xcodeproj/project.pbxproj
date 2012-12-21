@@ -46,6 +46,9 @@
 		E54C80891683FC25007F59A4 /* WeiBoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E54C80841683FC25007F59A4 /* WeiBoViewController.m */; };
 		E54C808B1683FD13007F59A4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54C808A1683FD13007F59A4 /* MainStoryboard.storyboard */; };
 		E54C809516843768007F59A4 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E54C809416843768007F59A4 /* TPKeyboardAvoidingScrollView.m */; };
+		E54C809F168443EF007F59A4 /* MainPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E54C809E168443EF007F59A4 /* MainPicViewController.m */; };
+		E54C80A2168448A5007F59A4 /* HotTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E54C80A1168448A5007F59A4 /* HotTableViewCell.m */; };
+		E54C80A5168448BB007F59A4 /* LiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E54C80A4168448BA007F59A4 /* LiveTableViewCell.m */; };
 		E5DD3DE416816177003330CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DD3DE316816177003330CE /* UIKit.framework */; };
 		E5DD3DE616816177003330CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DD3DE516816177003330CE /* Foundation.framework */; };
 		E5DD3DE816816177003330CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DD3DE716816177003330CE /* CoreGraphics.framework */; };
@@ -106,6 +109,12 @@
 		E54C808A1683FD13007F59A4 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E54C809316843768007F59A4 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
 		E54C809416843768007F59A4 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		E54C809D168443EF007F59A4 /* MainPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPicViewController.h; sourceTree = "<group>"; };
+		E54C809E168443EF007F59A4 /* MainPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPicViewController.m; sourceTree = "<group>"; };
+		E54C80A0168448A4007F59A4 /* HotTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotTableViewCell.h; sourceTree = "<group>"; };
+		E54C80A1168448A5007F59A4 /* HotTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotTableViewCell.m; sourceTree = "<group>"; };
+		E54C80A3168448BA007F59A4 /* LiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveTableViewCell.h; sourceTree = "<group>"; };
+		E54C80A4168448BA007F59A4 /* LiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveTableViewCell.m; sourceTree = "<group>"; };
 		E5DD3DDF16816177003330CE /* BreadTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreadTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DD3DE316816177003330CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E5DD3DE516816177003330CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -150,6 +159,12 @@
 				E54C80821683FC25007F59A4 /* UnLoginViewController.m */,
 				E54C80831683FC25007F59A4 /* WeiBoViewController.h */,
 				E54C80841683FC25007F59A4 /* WeiBoViewController.m */,
+				E54C809D168443EF007F59A4 /* MainPicViewController.h */,
+				E54C809E168443EF007F59A4 /* MainPicViewController.m */,
+				E54C80A0168448A4007F59A4 /* HotTableViewCell.h */,
+				E54C80A1168448A5007F59A4 /* HotTableViewCell.m */,
+				E54C80A3168448BA007F59A4 /* LiveTableViewCell.h */,
+				E54C80A4168448BA007F59A4 /* LiveTableViewCell.m */,
 			);
 			path = control;
 			sourceTree = "<group>";
@@ -368,6 +383,9 @@
 				E54C80881683FC25007F59A4 /* UnLoginViewController.m in Sources */,
 				E54C80891683FC25007F59A4 /* WeiBoViewController.m in Sources */,
 				E54C809516843768007F59A4 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				E54C809F168443EF007F59A4 /* MainPicViewController.m in Sources */,
+				E54C80A2168448A5007F59A4 /* HotTableViewCell.m in Sources */,
+				E54C80A5168448BB007F59A4 /* LiveTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
