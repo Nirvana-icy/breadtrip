@@ -53,6 +53,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E54C7FF41683FA1D007F59A4 /* control */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = control;
+			sourceTree = "<group>";
+		};
+		E54C7FF51683FA1D007F59A4 /* util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		E54C7FF71683FA2F007F59A4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		E5DD3DD416816176003330CE = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +109,8 @@
 				E5DD3DFB16816177003330CE /* MainStoryboard.storyboard */,
 				E5DD3DFE16816177003330CE /* ViewController.h */,
 				E5DD3DFF16816177003330CE /* ViewController.m */,
+				E54C7FF41683FA1D007F59A4 /* control */,
+				E54C7FF51683FA1D007F59A4 /* util */,
 				E5DD3DEA16816177003330CE /* Supporting Files */,
 			);
 			path = BreadTrip;
@@ -96,6 +119,7 @@
 		E5DD3DEA16816177003330CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E54C7FF71683FA2F007F59A4 /* images */,
 				E5DD3DEB16816177003330CE /* BreadTrip-Info.plist */,
 				E5DD3DEC16816177003330CE /* InfoPlist.strings */,
 				E5DD3DEF16816177003330CE /* main.m */,
@@ -292,6 +316,7 @@
 				E5DD3E0516816177003330CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
