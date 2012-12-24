@@ -12,5 +12,6 @@
     
 }
 @property(nonatomic,weak) IBOutlet UILabel *liveLabel;
+@property(nonatomic,weak) IBOutlet UIImageView *liveImage;
 
 @end

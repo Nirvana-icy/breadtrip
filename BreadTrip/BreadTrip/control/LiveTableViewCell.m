@@ -10,7 +10,7 @@
 
 @implementation LiveTableViewCell
 @synthesize liveLabel;
-
+@synthesize liveImage;
 
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated

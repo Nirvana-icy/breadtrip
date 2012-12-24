@@ -124,15 +124,15 @@
     static NSString *CellIdentifier1= @"HotCell";
     static NSString *CellIdentifier2= @"LiveCell";
     
-    
+     UIImage *hotEditPNG=[UIImage imageNamed: [images objectAtIndex:indexPath.row] ];
     if (tableView.tag==0) {
-        UIImage *hotEditPNG=[UIImage imageNamed: [images objectAtIndex:indexPath.row] ];
+       
         HotTableViewCell *cell= [tableView dequeueReusableCellWithIdentifier:CellIdentifier1 forIndexPath:indexPath];
         [cell.hotImage setImage:hotEditPNG];
         return cell;
     }else if(tableView.tag==1){
         LiveTableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:CellIdentifier2 forIndexPath:indexPath];
-        cell.liveLabel.text=@"hello11";
+           [cell.liveImage setImage:hotEditPNG];
         return cell;
     }
     return nil;

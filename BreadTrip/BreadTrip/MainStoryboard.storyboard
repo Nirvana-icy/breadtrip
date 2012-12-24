@@ -150,30 +150,81 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6xr-8N-KsN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" tag="1" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="219" sectionHeaderHeight="22" sectionFooterHeight="22" id="333-9T-Rzl">
+                <tableView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" tag="1" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="242" sectionHeaderHeight="22" sectionFooterHeight="22" id="333-9T-Rzl">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <prototypes>
-                        <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LiveCell" rowHeight="219" id="UOe-fm-uxg" customClass="LiveTableViewCell">
-                            <rect key="frame" x="0.0" y="22" width="320" height="219"/>
+                        <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LiveCell" rowHeight="242" id="UOe-fm-uxg" customClass="LiveTableViewCell">
+                            <rect key="frame" x="0.0" y="22" width="320" height="242"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="218"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="241"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kr1-bq-Jpq">
-                                        <rect key="frame" x="144" y="24" width="86" height="21"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="SHenyueStyle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HgK-cm-KBz">
+                                        <rect key="frame" x="54" y="7" width="90" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.3154162331208849" green="0.67846603040397035" blue="0.78059188179347827" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="on trip" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nkh-gr-fsN">
+                                        <rect key="frame" x="152" y="7" width="48" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.62100883152173914" green="0.62100883152173914" blue="0.62100883152173914" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="大石室的银杏" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2IU-dI-fv1">
+                                        <rect key="frame" x="208" y="7" width="112" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.3154162331" green="0.67846603039999998" blue="0.78059188180000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="xog-kg-y5g">
+                                        <rect key="frame" x="54" y="29" width="254" height="130"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="notification_text_background.png" id="qh1-yT-mTZ">
+                                        <rect key="frame" x="46" y="150" width="270" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="very interesting" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gjo-Vn-RSN">
+                                        <rect key="frame" x="69" y="166" width="145" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="clock_gray.png" id="mgF-mZ-S7i">
+                                        <rect key="frame" x="69" y="196" width="15" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="3 days ago" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KjA-rc-8b8">
+                                        <rect key="frame" x="86" y="193" width="67" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.62100883149999997" green="0.62100883149999997" blue="0.62100883149999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="location_pin.png" id="LYu-Yj-E41">
+                                        <rect key="frame" x="153" y="198" width="8" height="13"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="China, Sichuan，jindong" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jMM-Gg-hRd">
+                                        <rect key="frame" x="169" y="193" width="117" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.3154162331" green="0.67846603039999998" blue="0.78059188180000005" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <connections>
-                                <outlet property="liveLabel" destination="Kr1-bq-Jpq" id="2gc-R9-aTc"/>
+                                <outlet property="liveImage" destination="xog-kg-y5g" id="yG9-w1-xyz"/>
                             </connections>
                         </tableViewCell>
                     </prototypes>
@@ -524,11 +575,14 @@
     <resources>
         <image name="account_login.png" width="320" height="460"/>
         <image name="account_register.png" width="320" height="460"/>
+        <image name="clock_gray.png" width="15" height="15"/>
         <image name="explore_hottrip_info_bg.png" width="120" height="65"/>
         <image name="guest_bar_login.png" width="93" height="32"/>
+        <image name="location_pin.png" width="8" height="13"/>
         <image name="login_btn.png" width="190" height="44"/>
         <image name="nav_back.png" width="33" height="44"/>
         <image name="navbar_blank.png" width="320" height="44"/>
+        <image name="notification_text_background.png" width="212" height="82"/>
         <image name="wishes_list_been_to_hl.png" width="162" height="32"/>
         <image name="wishes_list_want_to_go.png" width="162" height="32"/>
     </resources>
@@ -555,6 +609,7 @@
         <class className="LiveTableViewCell" superclassName="UITableViewCell">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LiveTableViewCell.h"/>
             <relationships>
+                <relationship kind="outlet" name="liveImage" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="liveLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
