@@ -11,6 +11,14 @@
 @interface MainPicViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
     
 }
-@property(nonatomic,weak) IBOutlet UITableView *dataView;
+@property(nonatomic,strong) IBOutlet UITableView *hotTableview;
+@property(nonatomic,strong) IBOutlet UITableView *liveTableview;
+@property(nonatomic,weak) IBOutlet UIButton *hotButton;
+@property(nonatomic,weak) IBOutlet UIButton *liveButton;
+@property(nonatomic,weak) IBOutlet UIView *mainView;
+
+-(IBAction)liveButtonClick:(id)sender;
+-(IBAction)hotButtonClick:(id)sender;
+
 
 @end

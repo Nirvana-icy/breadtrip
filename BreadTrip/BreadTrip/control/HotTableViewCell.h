@@ -12,5 +12,6 @@
     
 }
 @property(nonatomic,weak) IBOutlet UILabel *hotLabel;
+@property(nonatomic,weak) IBOutlet UIImageView *hotImage;
 
 @end

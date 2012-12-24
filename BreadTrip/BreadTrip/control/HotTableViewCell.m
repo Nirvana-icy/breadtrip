@@ -10,7 +10,7 @@
 
 @implementation HotTableViewCell
 @synthesize hotLabel;
-
+@synthesize hotImage;
 
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
