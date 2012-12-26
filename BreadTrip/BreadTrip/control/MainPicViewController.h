@@ -19,6 +19,7 @@
 
 -(IBAction)liveButtonClick:(id)sender;
 -(IBAction)hotButtonClick:(id)sender;
+-(IBAction)userIconButtonClick:(id)sender;
 
 
 @end
