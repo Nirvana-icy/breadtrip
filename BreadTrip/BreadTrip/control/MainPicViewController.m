@@ -9,6 +9,7 @@
 #import "MainPicViewController.h"
 #import "LiveTableViewCell.h"
 #import "HotTableViewCell.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface MainPicViewController (){
     NSString *initBySelf;
@@ -32,8 +33,8 @@
     initBySelf=@"YES";
     hotOrLive=@"HOT";
     
-   self.hotTableview.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background_normal_gray.png"]];
-   self.liveTableview.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background_normal_gray.png"]];
+    self.hotTableview.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background_normal_gray.png"]];
+    self.liveTableview.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background_normal_gray.png"]];
     
     NSArray * paths = [NSBundle pathsForResourcesOfType: @"JPG" inDirectory: [[NSBundle mainBundle] bundlePath]];
     images = [[NSMutableArray alloc] init];
@@ -124,15 +125,20 @@
     static NSString *CellIdentifier1= @"HotCell";
     static NSString *CellIdentifier2= @"LiveCell";
     
-     UIImage *hotEditPNG=[UIImage imageNamed: [images objectAtIndex:indexPath.row] ];
+    UIImage *hotEditPNG=[UIImage imageNamed: [images objectAtIndex:indexPath.row] ];
     if (tableView.tag==0) {
-       
+        
         HotTableViewCell *cell= [tableView dequeueReusableCellWithIdentifier:CellIdentifier1 forIndexPath:indexPath];
         [cell.hotImage setImage:hotEditPNG];
         return cell;
     }else if(tableView.tag==1){
         LiveTableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:CellIdentifier2 forIndexPath:indexPath];
-           [cell.liveImage setImage:hotEditPNG];
+        [cell.liveImage setImage:hotEditPNG];
+        double imageSize = 20;
+        cell.userIconButton.layer.masksToBounds = YES;
+        
+        // 其實就是設定圓角，只是圓角的弧度剛好就是圖片尺寸的一半
+        cell.userIconButton.layer.cornerRadius = imageSize / 2.0;
         return cell;
     }
     return nil;

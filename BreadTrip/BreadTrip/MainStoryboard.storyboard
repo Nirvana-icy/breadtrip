@@ -220,11 +220,24 @@
                                         <color key="textColor" red="0.3154162331" green="0.67846603039999998" blue="0.78059188180000005" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4vR-2y-Azl">
+                                        <rect key="frame" x="10" y="26" width="42" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" backgroundImage="26471557.jpg">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <connections>
                                 <outlet property="liveImage" destination="xog-kg-y5g" id="yG9-w1-xyz"/>
+                                <outlet property="userIconButton" destination="4vR-2y-Azl" id="i3X-5j-7Qx"/>
                             </connections>
                         </tableViewCell>
                     </prototypes>
@@ -573,6 +586,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="26471557.jpg" width="650" height="650"/>
         <image name="account_login.png" width="320" height="460"/>
         <image name="account_register.png" width="320" height="460"/>
         <image name="clock_gray.png" width="15" height="15"/>
@@ -586,68 +600,6 @@
         <image name="wishes_list_been_to_hl.png" width="162" height="32"/>
         <image name="wishes_list_want_to_go.png" width="162" height="32"/>
     </resources>
-    <classes>
-        <class className="CustomerTabBarController" superclassName="UITabBarController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomerTabBarController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tabBarView" candidateClass="UIView"/>
-            </relationships>
-        </class>
-        <class className="CustomerViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomerViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="dismissSelfView:"/>
-            </relationships>
-        </class>
-        <class className="HotTableViewCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HotTableViewCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="hotImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="hotLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="LiveTableViewCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LiveTableViewCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="liveImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="liveLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="LoginInViewController" superclassName="CustomerViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginInViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="passwordField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="userNameField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="MainPicViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainPicViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="hotButtonClick:"/>
-                <relationship kind="action" name="liveButtonClick:"/>
-                <relationship kind="outlet" name="hotButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="hotTableview" candidateClass="UITableView"/>
-                <relationship kind="outlet" name="liveButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="liveTableview" candidateClass="UITableView"/>
-                <relationship kind="outlet" name="mainView" candidateClass="UIView"/>
-            </relationships>
-        </class>
-        <class className="SignupViewController" superclassName="CustomerViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SignupViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="emailField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="passwordField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="scrollView" candidateClass="TPKeyboardAvoidingScrollView"/>
-                <relationship kind="outlet" name="userNameField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="TPKeyboardAvoidingScrollView" superclassName="UIScrollView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TPKeyboardAvoidingScrollView.h"/>
-        </class>
-        <class className="WeiBoViewController" superclassName="CustomerViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WeiBoViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

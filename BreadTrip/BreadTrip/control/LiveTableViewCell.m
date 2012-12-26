@@ -7,10 +7,14 @@
 //
 
 #import "LiveTableViewCell.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation LiveTableViewCell
 @synthesize liveLabel;
 @synthesize liveImage;
+@synthesize userIcon;
+@synthesize userIconButton;
+
 
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated

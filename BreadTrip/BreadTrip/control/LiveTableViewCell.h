@@ -13,5 +13,7 @@
 }
 @property(nonatomic,weak) IBOutlet UILabel *liveLabel;
 @property(nonatomic,weak) IBOutlet UIImageView *liveImage;
+@property(nonatomic,weak) IBOutlet UIImageView *userIcon;
+@property(nonatomic,weak) IBOutlet UIButton *userIconButton;
 
 @end

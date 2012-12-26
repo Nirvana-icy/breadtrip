@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50B29C9168A8D0A00FF704A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50B29C7168A8CFC00FF704A /* QuartzCore.framework */; };
+		E50B29CB168A946700FF704A /* 26471557.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E50B29CA168A946700FF704A /* 26471557.jpg */; };
 		E54C80561683FBE5007F59A4 /* account_login.png in Resources */ = {isa = PBXBuildFile; fileRef = E54C80381683FBE5007F59A4 /* account_login.png */; };
 		E54C80571683FBE5007F59A4 /* account_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E54C80391683FBE5007F59A4 /* account_login@2x.png */; };
 		E54C80581683FBE5007F59A4 /* account_register.png in Resources */ = {isa = PBXBuildFile; fileRef = E54C803A1683FBE5007F59A4 /* account_register.png */; };
@@ -97,6 +99,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E50B29C7168A8CFC00FF704A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E50B29CA168A946700FF704A /* 26471557.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 26471557.jpg; sourceTree = "<group>"; };
 		E54C80381683FBE5007F59A4 /* account_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_login.png; sourceTree = "<group>"; };
 		E54C80391683FBE5007F59A4 /* account_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_login@2x.png"; sourceTree = "<group>"; };
 		E54C803A1683FBE5007F59A4 /* account_register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_register.png; sourceTree = "<group>"; };
@@ -207,6 +211,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E50B29C9168A8D0A00FF704A /* QuartzCore.framework in Frameworks */,
 				E5DD3DE416816177003330CE /* UIKit.framework in Frameworks */,
 				E5DD3DE616816177003330CE /* Foundation.framework in Frameworks */,
 				E5DD3DE816816177003330CE /* CoreGraphics.framework in Frameworks */,
@@ -312,6 +317,7 @@
 		E590C0EF1688344E000506A5 /* cacheimage */ = {
 			isa = PBXGroup;
 			children = (
+				E50B29CA168A946700FF704A /* 26471557.jpg */,
 				E590C0F01688344E000506A5 /* IMG_0169.JPG */,
 				E590C0F11688344E000506A5 /* IMG_0189.JPG */,
 				E590C0F21688344E000506A5 /* IMG_0190.JPG */,
@@ -351,6 +357,7 @@
 		E5DD3DE216816177003330CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E50B29C7168A8CFC00FF704A /* QuartzCore.framework */,
 				E5DD3DE316816177003330CE /* UIKit.framework */,
 				E5DD3DE516816177003330CE /* Foundation.framework */,
 				E5DD3DE716816177003330CE /* CoreGraphics.framework */,
@@ -510,6 +517,7 @@
 				E590C13A16884553000506A5 /* clock_gray@2x.png in Resources */,
 				E590C13D168845CA000506A5 /* location_pin.png in Resources */,
 				E590C13E168845CA000506A5 /* location_pin@2x.png in Resources */,
+				E50B29CB168A946700FF704A /* 26471557.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
